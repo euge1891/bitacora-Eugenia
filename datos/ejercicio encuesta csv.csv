@@ -1,0 +1,14 @@
+,Variable,Tipo,Valores esperados,Faltante,Pregunta,Opciones
+,id,entero,"1,2,...",no admite,,
+,frecuencia,ordinal,nunca < 1 a 3 veces < 4 a 8 veces < + de 8 veces,NA,¿Con qué frecuencia compras semanalmente en la cantina de la facultad?,nunca < 1 a 3 veces < 4 a 8 veces < + de 8 veces
+,prod_cafe,binaria,"0,1",NA si frecuencia = nunca,¿Qué productos comprás habitualmente en la cantina? (podés elegir más de una opción),"Café, comida, frias, otros"
+,prod_comida,binaria,"0,1",NA si frecuencia = nunca,¿Qué productos comprás habitualmente en la cantina? (podés elegir más de una opción),
+,prod_frias,binaria,"0,1",NA si frecuencia = nunca,¿Qué productos comprás habitualmente en la cantina? (podés elegir más de una opción),
+,prod_otros,binaria,"0,1",NA si frecuencia = nunca,¿Qué productos comprás habitualmente en la cantina? (podés elegir más de una opción),
+,atención,ordinal,1 < 2 < 3 < 4 < 5,NA si frecuencia = nunca,¿Cómo calificarías la atencion recibida en la cafeteria? ,"Escala del 1 al 5 (1 bajo, 5 alto)"
+,pago_efectivo,binaria,"0,1",NA si frecuencia = nunca,¿Qué medio de pago utilizas habitualmente en la cantina? (podés elegir más de una opción),"Efectivo, tarjeta, transferencia"
+,pago_tarjeta,binaria,"0,1",NA si frecuencia = nunca,¿Qué medio de pago utilizas habitualmente en la cantina? (podés elegir más de una opción),
+,pago_transferencia,binaria,"0,1",NA si frecuencia = nunca,¿Qué medio de pago utilizas habitualmente en la cantina? (podés elegir más de una opción),
+,estudiante,binaria,"TRUE, FALSE",NA,¿Sos estudiante de la facultad?,Sí = TRUE / No = False
+,fecha de nacimiento,fecha,DD / MM / AAAA,NA,¿Cuál es tu fecha de nacimiento?,
+,mejora,texto,libre,vacío,¿Qué mejorarías de la cantina?,
